@@ -1,0 +1,17 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "Pack Name",
+        "description": "Description",
+        "uuid": "UUID",
+        "version": [1,0,0]
+    },
+    "modules": [
+        {
+            "entry": "scripts/entry.js",
+            "type": "javascript",
+            "uuid": "f9949c63-1446-406a-a3f4-908536c44371",
+            "version": [1,0,0]
+        }
+    ]
+}
