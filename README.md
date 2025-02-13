@@ -6,12 +6,13 @@ This project is a template for developing Minecraft Bedrock Edition ScriptAPI pr
 
 ## Configuration
 
-Before running the compile script, configure the following constants in `copy.js`:
+Before running the compile script, configure the following constants in `config.json`:
 
-```js
-const source = "./BP";
-const destination = "(MINECRAFT WORLD BEHAVIOR PACK LOCATION)";
-const pack_name = "(PACK NAME)";
+```json
+{
+    "destination": "(MINECRAFT WORLD BEHAVIOR PACK LOCATION)",
+    "pack_name": "(PACK NAME)"
+}
 ```
 
 ## Using
