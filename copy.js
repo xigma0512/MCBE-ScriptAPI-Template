@@ -10,7 +10,7 @@ function copyFolder(src, dest) {
 
     if (!fs.existsSync(dest)) {
         fs.mkdirSync(dest, { recursive: true });
-        console.log(`Created ${pack_name} folder.`);
+        console.log(`Created ${dest} folder.`);
     }
 
     fs.readdirSync(src).forEach(file => {
